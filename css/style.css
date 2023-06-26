@@ -1,0 +1,55 @@
+/* refrence */
+/* 
+    1- root styles
+    2- general styles
+    3- card design
+*/
+
+/* 1- root styles */
+:root {
+    --pg: 15px;
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+/* 2- general styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+/* 3- card design */
+.card {
+    height: 100vh;
+    background-color: var(--Light-gray);
+}
+.container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: var(--White);
+    padding: 15px;
+    border-radius: 20px;
+}
+.image img {
+    width: 100%;
+    border-radius: 12px;
+}
+.headings {
+    padding: 15px;
+    text-align: center;
+}
+.headings h2 {
+    font-size: 20px;
+    color: var(--Dark-blue);
+    padding: 8px 0;
+}
+.headings p {
+    font-size: var(--pg);
+    color: var(--Grayish-blue);
+    padding: 5px 0;
+}
