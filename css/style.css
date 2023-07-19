@@ -1,10 +1,3 @@
-/* refrence */
-/* 
-    1- root styles
-    2- general styles
-    3- card design
-*/
-
 /* 1- root styles */
 :root {
     --pg: 15px;
@@ -15,8 +8,7 @@
 }
 /* 2- general styles */
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0; margin: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
 }
@@ -30,7 +22,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 340px;
     background-color: var(--White);
     padding: 15px;
     border-radius: 20px;
@@ -43,13 +35,13 @@
     padding: 15px;
     text-align: center;
 }
-.headings h2 {
-    font-size: 20px;
+.headings h1 {
+    font-size: 24px;
     color: var(--Dark-blue);
     padding: 8px 0;
 }
 .headings p {
     font-size: var(--pg);
     color: var(--Grayish-blue);
-    padding: 5px 0;
+    padding: 10px 0;
 }
